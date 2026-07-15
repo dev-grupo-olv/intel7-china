@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="loading">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -290,9 +290,346 @@ tailwind.config = {
     width: 1px;
     background: linear-gradient(180deg, #c9a961, transparent);
   }
+
+  /* ============================================================
+     PRELOADER · sequência de abertura cinematográfica
+     ============================================================ */
+  html.loading, html.loading body {
+    overflow: hidden;
+    height: 100vh;
+  }
+  html.loading body {
+    cursor: auto;
+  }
+  html.loading .cursor, html.loading .cursor-dot {
+    opacity: 0;
+  }
+
+  #preloader {
+    position: fixed;
+    inset: 0;
+    background: #050705;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    overflow: hidden;
+    transition: opacity 0.6s ease;
+  }
+  #preloader.done {
+    pointer-events: none;
+  }
+
+  /* Chinese character behind (background giant) */
+  .preload-hanzi {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    color: rgba(201, 169, 97, 0.06);
+    font-size: 70vh;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    pointer-events: none;
+    user-select: none;
+    transform: translateY(30px);
+    opacity: 0;
+    animation: hanziIn 2.4s cubic-bezier(0.19, 1, 0.22, 1) 0.15s forwards;
+  }
+  @keyframes hanziIn {
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .preload-hanzi::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 60%, transparent 40%, #050705 78%);
+  }
+
+  /* Top bar (INTEL7 mark) */
+  .preload-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 40px;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: preloadTopIn 1s cubic-bezier(0.19, 1, 0.22, 1) 0.2s forwards;
+  }
+  @keyframes preloadTopIn {
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .preload-top .mark {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.35em;
+    color: #c9a961;
+    text-transform: uppercase;
+  }
+  .preload-top .mark .dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #c9a961;
+    margin: 0 12px 1px;
+    vertical-align: middle;
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.75); }
+  }
+
+  /* Central word reveal */
+  .preload-center {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 0 24px;
+    text-align: center;
+  }
+  .preload-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.4em;
+    color: rgba(201, 169, 97, 0.7);
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    opacity: 0;
+    animation: fadeSimple 1s ease 0.5s forwards;
+  }
+  @keyframes fadeSimple { to { opacity: 1; } }
+
+  .preload-title {
+    font-family: 'Fraunces', serif;
+    font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 0;
+    font-weight: 300;
+    font-size: clamp(3rem, 11vw, 11rem);
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    color: #f5f2ea;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 0.25em;
+  }
+  .preload-title .w {
+    display: inline-flex;
+    overflow: hidden;
+    padding: 0.05em 0;
+  }
+  .preload-title .w > span {
+    display: inline-block;
+    transform: translateY(120%);
+    animation: charUp 1.4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  }
+  .preload-title .w.italic > span {
+    font-style: italic;
+    font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
+    color: #c9a961;
+  }
+  @keyframes charUp {
+    to { transform: translateY(0); }
+  }
+
+  .preload-tagline {
+    margin-top: 44px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    font-size: clamp(0.9rem, 1.4vw, 1.15rem);
+    color: rgba(245, 242, 234, 0.55);
+    letter-spacing: 0.02em;
+    opacity: 0;
+    animation: fadeSimple 1.2s ease 1.6s forwards;
+    max-width: 640px;
+    line-height: 1.5;
+  }
+  .preload-tagline em {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    color: #c9a961;
+    font-weight: 400;
+  }
+
+  /* Bottom · progress */
+  .preload-bottom {
+    padding: 32px 40px 40px;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    animation: fadeSimple 0.8s ease 0.4s forwards;
+  }
+  .preload-progress-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    color: rgba(245, 242, 234, 0.5);
+    text-transform: uppercase;
+  }
+  .preload-progress-row .pct {
+    color: #c9a961;
+    font-weight: 500;
+  }
+  .preload-bar {
+    height: 1px;
+    background: rgba(201, 169, 97, 0.15);
+    position: relative;
+    overflow: hidden;
+  }
+  .preload-bar::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    background: linear-gradient(90deg, #c9a961 0%, #f5f2ea 100%);
+    animation: barFill 3s cubic-bezier(0.19, 1, 0.22, 1) 0.4s forwards;
+    box-shadow: 0 0 12px rgba(201, 169, 97, 0.6);
+  }
+  @keyframes barFill {
+    to { width: 100%; }
+  }
+
+  /* Curtain sequence · slide vertical split */
+  .curtain {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #050705;
+    z-index: 9999;
+    pointer-events: none;
+    transition: transform 1.1s cubic-bezier(0.87, 0, 0.13, 1);
+  }
+  .curtain.top {
+    top: 0;
+    height: 50vh;
+    transform: translateY(0);
+  }
+  .curtain.bottom {
+    bottom: 0;
+    height: 50vh;
+    transform: translateY(0);
+  }
+  .curtain.opening.top { transform: translateY(-100%); }
+  .curtain.opening.bottom { transform: translateY(100%); }
+  .curtain-glow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #c9a961, transparent);
+    box-shadow: 0 0 24px 3px rgba(201, 169, 97, 0.5);
+    opacity: 0;
+  }
+  .curtain.top .curtain-glow { bottom: 0; }
+  .curtain.bottom .curtain-glow { top: 0; }
+  .curtain.opening .curtain-glow { opacity: 1; }
+
+  /* Hero entrance stage (used only after preloader done) */
+  .hero-word {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.02em 0;
+  }
+  .hero-word > span {
+    display: inline-block;
+    transform: translateY(105%);
+    opacity: 0;
+    transition:
+      transform 1.4s cubic-bezier(0.19, 1, 0.22, 1),
+      opacity 1.4s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  html.ready .hero-word > span {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  html.ready .hero-word > span:nth-child(1) { transition-delay: 0.05s; }
+  html.ready .hero-word > span:nth-child(2) { transition-delay: 0.15s; }
+  html.ready .hero-word > span:nth-child(3) { transition-delay: 0.25s; }
+
+  .hero-stage {
+    opacity: 0;
+    transition: opacity 1.4s ease 0.4s;
+  }
+  html.ready .hero-stage { opacity: 1; }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    #preloader, .curtain { display: none !important; }
+    .hero-word > span { transform: none !important; opacity: 1 !important; }
+    .hero-stage { opacity: 1 !important; }
+    html.loading, html.loading body { overflow: auto !important; }
+  }
 </style>
 </head>
 <body class="bg-ink text-bone">
+
+<!-- ============================================================
+     PRELOADER · sequência de abertura cinematográfica
+     ============================================================ -->
+<div id="preloader" class="no-print" aria-hidden="true">
+
+  <!-- Chinese character background -->
+  <div class="preload-hanzi" style="animation-delay:0.15s">食</div>
+
+  <!-- Top bar · INTEL7 mark -->
+  <div class="preload-top">
+    <span class="mark">INTEL<span class="dot"></span>7 · CHINA FOOD</span>
+    <span class="mark" style="color:rgba(245,242,234,0.4)">2026</span>
+  </div>
+
+  <!-- Central word reveal -->
+  <div class="preload-center">
+    <div class="preload-eyebrow">Missão outubro 2026 · Canton Fair Fase 3 FOOD</div>
+
+    <h1 class="preload-title" aria-label="Missão China Food">
+      <span class="w"><span style="animation-delay:0.9s">M</span><span style="animation-delay:0.94s">i</span><span style="animation-delay:0.98s">s</span><span style="animation-delay:1.02s">s</span><span style="animation-delay:1.06s">ã</span><span style="animation-delay:1.1s">o</span></span>
+      <span class="w italic"><span style="animation-delay:1.35s">C</span><span style="animation-delay:1.4s">h</span><span style="animation-delay:1.45s">i</span><span style="animation-delay:1.5s">n</span><span style="animation-delay:1.55s">a</span></span>
+      <span class="w italic"><span style="animation-delay:1.75s">F</span><span style="animation-delay:1.8s">o</span><span style="animation-delay:1.85s">o</span><span style="animation-delay:1.9s">d</span></span>
+    </h1>
+
+    <p class="preload-tagline">
+      Curadoria institucional Brasil <em>↔</em> China · <em>não é turismo</em>, é corredor
+    </p>
+  </div>
+
+  <!-- Bottom · progress bar -->
+  <div class="preload-bottom">
+    <div class="preload-progress-row">
+      <span>Preparando · v1</span>
+      <span class="pct" id="preloadPct">00</span>
+    </div>
+    <div class="preload-bar"></div>
+    <div class="preload-progress-row" style="margin-top:12px; margin-bottom:0">
+      <span style="color:rgba(245,242,234,0.4)">Pequim · 北京 → Xangai · 上海 → Yiwu · 义乌 → Cantão · 广州 → Hong Kong · 香港</span>
+      <span style="color:rgba(245,242,234,0.4)">14-15 dias</span>
+    </div>
+  </div>
+</div>
+
+<!-- Curtain sequence · overlay preto que abre revelando conteúdo -->
+<div class="curtain top no-print" aria-hidden="true">
+  <div class="curtain-glow"></div>
+</div>
+<div class="curtain bottom no-print" aria-hidden="true">
+  <div class="curtain-glow"></div>
+</div>
 
 <!-- Custom cursor -->
 <div class="cursor no-print" id="cursor"></div>
@@ -1491,6 +1828,70 @@ tailwind.config = {
 </footer>
 
 <script>
+  // ============================================================
+  // PRELOADER · sequência de abertura cinematográfica
+  // ============================================================
+  const preloader = document.getElementById('preloader');
+  const preloadPct = document.getElementById('preloadPct');
+  const curtains = document.querySelectorAll('.curtain');
+  const htmlEl = document.documentElement;
+
+  // Detect reduced motion
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Skip preloader if reduced motion OR if fonts fail to load in 5s
+  const preloadDuration = prefersReducedMotion ? 200 : 3600; // ms
+
+  // Progress percentage counter animation
+  if (!prefersReducedMotion && preloadPct) {
+    let start = null;
+    const totalPreload = 3400;
+    function animatePct(ts) {
+      if (!start) start = ts;
+      const elapsed = ts - start;
+      const pct = Math.min(Math.floor((elapsed / totalPreload) * 100), 100);
+      preloadPct.textContent = pct.toString().padStart(2, '0');
+      if (pct < 100) requestAnimationFrame(animatePct);
+    }
+    requestAnimationFrame(animatePct);
+  }
+
+  // After preload timeline: fade preloader + open curtains + reveal hero
+  function launch() {
+    // Step 1: fade preloader
+    if (preloader) {
+      preloader.classList.add('done');
+      preloader.style.opacity = '0';
+    }
+
+    // Step 2: open curtains (300ms after fade start)
+    setTimeout(() => {
+      curtains.forEach(c => c.classList.add('opening'));
+    }, 200);
+
+    // Step 3: reveal hero (right after curtain glow flashes)
+    setTimeout(() => {
+      htmlEl.classList.remove('loading');
+      htmlEl.classList.add('ready');
+      if (preloader) preloader.style.display = 'none';
+    }, 600);
+
+    // Step 4: remove curtains from DOM after animation completes
+    setTimeout(() => {
+      curtains.forEach(c => c.remove());
+    }, 1800);
+  }
+
+  // Trigger launch after preloader duration
+  window.addEventListener('load', () => {
+    setTimeout(launch, preloadDuration);
+  });
+
+  // Fallback: launch if load event doesn't fire within 6s (broken CDN)
+  setTimeout(() => {
+    if (htmlEl.classList.contains('loading')) launch();
+  }, 6000);
+
   // Custom cursor
   const cursor = document.getElementById('cursor');
   const cursorDot = document.getElementById('cursorDot');
