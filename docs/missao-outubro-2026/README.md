@@ -1,33 +1,45 @@
 # Missão outubro 2026 · visão
 
-Primeira missão comercial formal do INTEL7 China. Ancorada na **Canton Fair** (Guangzhou · roda ~45 dias em outubro). Duração ~15 dias · 5 blocos regionais · 10 visitas técnicas + 5 momentos de lazer/networking + 2 deslocamentos internos.
+Primeira missão comercial formal do INTEL7 China. Ancorada na **Canton Fair 140ª edição Fase 3 (categoria FOOD · 31 outubro a 4 novembro 2026)**. Duração ~14-15 dias · 5 blocos regionais. Roteiro travado pelos donos (Matheus + Felipe + Thiago) em 2026-07-15.
 
 **Modelo de auto-financiamento:** as cadeiras pagas (4 tipos · ver `cadeiras-missao.md`) cobrem o custo da missão · restante vira margem + intel + primeiros deals.
 
+**Material canônico da apresentação Abrasel:** `docs/apresentacao/roteiro-final-ponta-a-ponta.md` (usado por Felipe na reunião com Gabriel presidente Abrasel 2026-07-16).
+
 ## Timing
 
-Canton Fair é o evento que "leva todo mundo pra China" · na temporada, passagem sobe forte · janela de venda do produto é definida por ela. Reservar cadeiras: até **agosto 2026** ideal · até **setembro 2026** limite.
+Canton Fair Fase 3 (FOOD) = 31 outubro a 4 novembro 2026 · janela travada. Chegada Pequim ~24-25 out · saída HK ~6-7 nov. Reservar cadeiras: até **agosto 2026** ideal · até **setembro 2026** limite. Deadline "vai ou não vai": **15 setembro 2026** (mínimo 8 cadeiras).
 
-## Estrutura de 5 blocos
+**Bonus:** Brasil visa-free China ativo (11 mai a 31 dez 2026) · **cadeiras não precisam de visto**.
+
+## Estrutura de 5 blocos (rota oficial)
 
 Detalhe operacional em `agenda-dia-a-dia.md`. Visão:
 
 | Bloco | Cidade | Duração | Foco |
 |---|---|---|---|
-| 1 | **Pequim** | 3-4 dias | Institucional · IA · Muralha · 4Paradigm |
-| 2 | **Xangai** | 3 dias | Comercial · Tech · Alibaba · DJI · restaurantes |
-| 3 | **Yiwu** | 2 dias | Atacado · sourcing · Yiwu International Business |
-| 4 | **Guangzhou / Cantão** | 3-4 dias | Canton Fair · fechamento · food safety |
-| 5 | **Hong Kong** | 1-2 dias | Saída barata + dia livre (opcional Disney HK) |
+| 1 | **Pequim** | 3-4 dias | Chegada + jantar Peking Duck · cerimônia abertura + apresentação missão · visitas 4Paradigm + Meituan + restaurante brasileiro operando na China · 3 visitas técnicas + 2 locais culturais |
+| 2 | **Xangai** | 3-4 dias | Chegada + almoço/coffee break com patrocinador (apresentação/debate) · cruzeiro Rio Huangpu à noite · visitas DJI + logística + fábricas · walkthrough livre |
+| 3 | **Yiwu (Mercadão)** | 1 dia | Yiwu International Trade Market dia inteiro · foco Supply Chain · **paralelo · tema/entrega de valor** para quem quiser |
+| 4 | **Guangzhou / Cantão** | 4 dias | **Canton Fair Fase 3 FOOD (31 out-4 nov)** · varredura estruturada + reuniões dirigidas · foco por cadeira |
+| 5 | **Hong Kong (opcional)** | 1-2 dias | **Missão oficial termina no último dia Canton Fair** · HK é opcional para saída aérea barata · dia livre + Disney HK (entretenimento) |
 
-## Alvos de visita técnica
+## Alvos de visita técnica confirmados no roteiro
 
-- **4Paradigm** (Pequim) · IA de decisão · visita aberta ao público · âncora institucional
-- **Alibaba** (Xangai / Hangzhou) · e-commerce · tech
-- **DJI fábrica** (Xangai / Shenzhen) · hardware manufacturing
-- **Yiwu International Business** (Yiwu) · atacado mundial · exportadores acostumados a Brasil
-- **Meituan** (Xangai) · food-tech benchmarking · com abertura de cozinha
-- **Restaurantes selecionados** · benchmarking operacional (cozinha aberta · POS · fluxo)
+- **Pequim · Dia 3** · 4Paradigm (IA) + Meituan (Marketplace) + restaurante brasileiro na China (fluxo · benchmarking)
+- **Pequim · Dia 4** · 3 visitas técnicas cobrindo os 3 pilares (IA/Tech · Supply Chain · Equipamento) + 1 restaurante + 2 locais culturais
+- **Xangai · Dia 6** · DJI fábrica + empresa de logística + fábrica adicional (3 visitas dia)
+- **Xangai · Dia 7** · Meituan regional + Alibaba escritório + ghost kitchen tour · tarde livre walkthrough
+- **Yiwu · Dia 8** · Yiwu International Trade Market (dia inteiro)
+- **Cantão · Dias 9-12** · Canton Fair Fase 3 FOOD · 4 dias completos
+
+## Os 3 pilares técnicos (travados)
+
+1. **IA e Tech** · 4Paradigm · Meituan · dark kitchens · POS · drone delivery
+2. **Supply Chain** · packaging + descartáveis + insumos + uniforme via Yiwu + Canton Fair
+3. **Equipamento e Maquinário** · DJI + fornos + fritadeiras + linhas + robôs wok · Canton Fair Fase 3
+
+Detalhes em `docs/pilares/`.
 
 ## Modelo comercial · resumo
 

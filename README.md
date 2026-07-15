@@ -39,6 +39,7 @@ Alimenta as outras frentes do grupo: food (restaurantes/delivery, leitura do Mei
 
 ## Como navegar este repo
 
+- [`docs/apresentacao/`](./docs/apresentacao/) · **material canônico para reuniões institucionais** · roteiro final ponta a ponta (Felipe × Gabriel Abrasel 2026-07-16)
 - [`NAMING-GUIDE.md`](./NAMING-GUIDE.md) · glossário canônico do domínio China (pessoas · cidades PT/EN · players · siglas · política visa-free 2026 · Canton Fair 140ª edição datas)
 - [`roteiro.md`](./roteiro.md) · roteiro operacional condensado 15 dias (original Thiago)
 - [`docs/contexto/`](./docs/contexto/) · por-que-china (tese macro) + movimento Brasil-China (camada institucional Abrasel)
