@@ -15,7 +15,7 @@ A missão outubro 2026 é auto-financiada por 4 tipos de cadeira paga. Cada tipo
 - Direito a levar 1 acompanhante técnico com tarifa reduzida
 - Setup completo (curadoria + refeições + visitas + tradutor dedicado)
 
-**Ticket:** R$ [X] · a definir · **premium sobre R$ 42k base**
+**Ticket:** R$ [X] · a definir · **premium sobre R$ 29.900 a vista (12x R$ 2.999) base**
 
 **Quantidade:** 1-2 cadeiras · escassez proposital
 
@@ -29,7 +29,7 @@ A missão outubro 2026 é auto-financiada por 4 tipos de cadeira paga. Cada tipo
 - Direito a solicitar 1 visita técnica adicional específica ao setor da empresa (dentro da viabilidade)
 - Nota fiscal como pessoa jurídica
 
-**Ticket:** R$ 42.000/pessoa
+**Ticket:** R$ 29.900 a vista (ou 12x de R$ 2.999)/pessoa
 
 **Quantidade:** 3-5 cadeiras
 
@@ -40,10 +40,10 @@ A missão outubro 2026 é auto-financiada por 4 tipos de cadeira paga. Cada tipo
 **O que recebe:**
 - Setup completo
 - Endosso público Abrasel (logo · comunicação institucional)
-- Desconto negociado sobre R$ 42k (a definir · alvo 10-15%)
+- Desconto negociado sobre R$ 29.900 a vista (12x R$ 2.999) (a definir · alvo 10-15%)
 - Acesso a mesa institucional Abrasel × contrapartes chinesas durante a missão
 
-**Ticket:** R$ 35.700 a R$ 37.800 (10-15% desconto)
+**Ticket:** R$ 25.415 a R$ 26.910 (10-15% desconto sobre R$ 29.900)
 
 **Quantidade:** 2-4 cadeiras · variável conforme aprovação Abrasel RJ/Campinas
 
@@ -56,7 +56,7 @@ A missão outubro 2026 é auto-financiada por 4 tipos de cadeira paga. Cada tipo
 - Visitas técnicas ajustadas ao segmento (ex: cadeira "equipamento" foca DJI + fábricas Yiwu · cadeira "food-tech" foca Meituan + 4Paradigm)
 - Match-making direcionado com contrapartes chinesas do mesmo segmento
 
-**Ticket:** R$ 42.000/pessoa
+**Ticket:** R$ 29.900 a vista (ou 12x de R$ 2.999)/pessoa
 
 **Quantidade:** 2-4 cadeiras · uma por segmento pra evitar canibalização
 
@@ -67,8 +67,8 @@ A missão outubro 2026 é auto-financiada por 4 tipos de cadeira paga. Cada tipo
 | Co-Líder | 1 | 2 | R$ [X] | R$ 2×[X] |
 | Corporativa | 3 | 5 | R$ 126.000 | R$ 210.000 |
 | Abrasel | 2 | 4 | R$ 71.400 | R$ 151.200 |
-| Setorial | 2 | 4 | R$ 84.000 | R$ 168.000 |
-| **Total** | **8** | **12** | **R$ 281.400 + Co-Líder** | **R$ 529.200 + Co-Líder** |
+| Setorial | 2 | 4 | R$ 60.000 (aprox 25% margem sobre R$ 239.200) | R$ 168.000 |
+| **Total** | **8** | **12** | **R$ 199.200 (calculo com R$ 29.900 x 8 - Co-Lider premium) + Co-Líder** | **R$ 358.800 (12 cadeiras a vista + Co-Lider premium) + Co-Líder** |
 
 Núcleo INTEL7 (Matheus · Thiago · Felipe) viaja como **curadoria** · não conta como cadeira paga.
 

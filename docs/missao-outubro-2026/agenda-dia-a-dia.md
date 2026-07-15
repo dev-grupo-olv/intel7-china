@@ -261,7 +261,7 @@ Detalhe cidade em `docs/cidades/hong-kong.md`.
 
 ## O pacote · o que inclui / o que não inclui
 
-### Inclui (ticket R$ 42k)
+### Inclui (ticket R$ 29.900 a vista (12x R$ 2.999))
 
 - ✅ Curadoria completa (Matheus + Felipe + Thiago em toda missão)
 - ✅ Guias e tradutores in-country (agência local China)

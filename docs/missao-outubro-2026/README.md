@@ -43,7 +43,7 @@ Detalhes em `docs/pilares/`.
 
 ## Modelo comercial · resumo
 
-- **Ticket:** R$ 42.000/pessoa
+- **Ticket:** R$ 29.900 a vista (ou 12x de R$ 2.999)/pessoa
 - **Cobre:** curadoria · refeições-chave · visitas técnicas · guias/tradutores
 - **Não cobre:** passagem aérea · hospedagem
 - **Operação in-country:** parceria com agência local China (contato aberto na viagem jan/fev 2026 · ver `docs/viagem-jan-fev-2026/`)
@@ -64,7 +64,7 @@ Detalhe financeiro em `docs/financeiro/modelo-comercial.md`.
 | Métrica | Meta | Fonte |
 |---|---|---|
 | Cadeiras vendidas | 8-12 pessoas | acompanhamento comercial |
-| Receita missão | R$ 336k a 504k | 8-12 × R$ 42k |
+| Receita missão | R$ 336k a 504k | 8-12 × R$ 29.900 a vista (12x R$ 2.999) |
 | Custo missão | ~R$ [X] | orçamento operacional (a fechar) |
 | Deals iniciados durante missão | 3+ | pós-missão |
 | Contatos institucionais adicionados | 10+ | pós-missão |

@@ -4,7 +4,7 @@ Como o produto se paga · quem ganha o quê · onde estão as margens · quais o
 
 ## Ticket base
 
-**R$ 42.000 por pessoa** · cobre:
+**R$ 29.900 a vista (ou 12x de R$ 2.999) por pessoa** · cobre:
 
 - Curadoria (Matheus + Thiago + Felipe)
 - Refeições-chave (Peking Duck de abertura · cruzeiro The Bund · restaurantes de benchmarking · almoços de reunião)
@@ -28,12 +28,12 @@ Detalhe em `docs/missao-outubro-2026/cadeiras-missao.md`. Resumo:
 | Tipo | Ticket | Quantidade alvo |
 |---|---|---|
 | Co-Líder | R$ [X] premium | 1-2 |
-| Corporativa | R$ 42.000 | 3-5 |
-| Abrasel | R$ 35.700 a R$ 37.800 (10-15% desconto) | 2-4 |
-| Setorial | R$ 42.000 | 2-4 |
+| Corporativa | R$ 29.900 a vista (ou 12x de R$ 2.999) | 3-5 |
+| Abrasel | R$ 25.415 a R$ 26.910 (10-15% desconto sobre R$ 29.900) | 2-4 |
+| Setorial | R$ 29.900 a vista (ou 12x de R$ 2.999) | 2-4 |
 
-**Receita mínima cenário conservador (8 cadeiras · sem Co-Líder premium):** R$ 281.400
-**Receita máxima cenário otimista (12 cadeiras + Co-Líder premium):** R$ 529.200 + Co-Líder
+**Receita mínima cenário conservador (8 cadeiras · sem Co-Líder premium):** R$ 199.200 (calculo com R$ 29.900 x 8 - Co-Lider premium)
+**Receita máxima cenário otimista (12 cadeiras + Co-Líder premium):** R$ 358.800 (12 cadeiras a vista + Co-Lider premium) + Co-Líder
 
 ## Estrutura de custo (referência · a fechar com parceiro local)
 
@@ -54,10 +54,10 @@ Meta operacional: **margem bruta ≥ 20%** · alvo cenário conservador R$ 8-10k
 
 ## Break-even da missão
 
-Com 8 cadeiras vendidas ao ticket base R$ 42k:
-- Receita: R$ 336.000
-- Custo total direto (~75%): R$ 252.000
-- Margem bruta: R$ 84.000
+Com 8 cadeiras vendidas ao ticket base R$ 29.900 a vista (12x R$ 2.999):
+- Receita: R$ 239.200 (8 cadeiras a vista)
+- Custo total direto (~75%): R$ 179.400 (aprox 75% custo sobre R$ 239.200)
+- Margem bruta: R$ 60.000 (aprox 25% margem sobre R$ 239.200)
 - Custos indiretos INTEL7 (curadoria interna Matheus + Thiago + Felipe · marketing · admin): a alocar
 
 **Não é sobre a margem da 1ª missão** · é sobre validar modelo + gerar intel + abrir contatos que viram deal Ano 1 (2027).

@@ -10,7 +10,7 @@ Ser **pioneiro de um movimento** que se consolida na próxima década: levar emp
 
 ## Modelo comercial
 
-- **Ticket:** ~R$42.000 por pessoa, cobrindo a **experiência** (curadoria + refeições-chave + visitas técnicas + guias/tradutores). **Passagem aérea e hospedagem por fora.**
+- **Ticket:** ~R$ 29.900 a vista (ou 12x de R$ 2.999) por pessoa, cobrindo a **experiência** (curadoria + refeições-chave + visitas técnicas + guias/tradutores). **Passagem aérea e hospedagem por fora.**
 - **Operação:** via **parceria com agência local na China** (contato já aberto em viagem anterior), não operação de turismo própria no Brasil. Margem sobre curadoria e relacionamento, não sobre logística bruta.
 - **Preparação:** workshops pré-viagem (contexto geopolítico, etiqueta, meios de pagamento, conduta cultural).
 

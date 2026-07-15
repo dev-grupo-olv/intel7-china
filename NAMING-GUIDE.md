@@ -68,7 +68,7 @@ Glossário canônico do domínio China usado neste repo. Serve como referência 
 
 ## Terminologia do produto de imersão
 
-- **Ticket** · R$ 42.000 por pessoa · cobre curadoria + refeições-chave + visitas técnicas + guias/tradutores · **exclui** passagem aérea e hospedagem
+- **Ticket** · R$ 29.900 a vista (ou 12x de R$ 2.999) por pessoa · cobre curadoria + refeições-chave + visitas técnicas + guias/tradutores · **exclui** passagem aérea e hospedagem
 - **Cadeiras da missão** · 4 tipos: Co-Líder · Corporativa · Abrasel · Setorial (detalhe em `docs/missao-outubro-2026/cadeiras-missao.md`)
 - **Parceria local** · agência única na China responsável por tradução + logística · dependência crítica · mitigar com redundância
 - **Workshops de preparação** · sessões pré-viagem obrigatórias (contexto geopolítico + etiqueta + meios de pagamento + conduta cultural)

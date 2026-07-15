@@ -166,21 +166,21 @@ Rota travada: **Pequim (3-4 dias) · Xangai (3-4 dias) · Yiwu Mercadão (1 dia)
 
 ## Modelo comercial · ticket + cadeiras
 
-**Ticket base R$ 42.000 por pessoa** · cobre o pacote acima.
+**Ticket base R$ 29.900 a vista (ou 12x de R$ 2.999) por pessoa** · cobre o pacote acima.
 
 Composição-alvo da missão (8-12 cadeiras):
 
 | Tipo | Ticket | Quantidade | Perfil |
 |---|---|---|---|
 | **Co-Líder** | R$ [X] premium | 1-2 | Empresário sênior · nome público como co-líder · agenda personalizada |
-| **Corporativa** | R$ 42.000 | 3-5 | Empresa BR · executivo próprio (CEO · VP Ops · CFO · Head Expansão) |
-| **Abrasel** | R$ 35.700 a R$ 37.800 (10-15% desconto) | 2-4 | Associado Abrasel · empresário F&B · endosso institucional |
-| **Setorial** | R$ 42.000 | 2-4 | Segmento específico (packaging · equipamento · insumos · food-tech) |
+| **Corporativa** | R$ 29.900 a vista (ou 12x de R$ 2.999) | 3-5 | Empresa BR · executivo próprio (CEO · VP Ops · CFO · Head Expansão) |
+| **Abrasel** | R$ 25.415 a R$ 26.910 (10-15% desconto sobre R$ 29.900) | 2-4 | Associado Abrasel · empresário F&B · endosso institucional |
+| **Setorial** | R$ 29.900 a vista (ou 12x de R$ 2.999) | 2-4 | Segmento específico (packaging · equipamento · insumos · food-tech) |
 
 **Núcleo (Matheus + Felipe + Thiago) viaja como curadoria · não conta como cadeira paga.**
 
-Receita mínima cenário conservador (8 cadeiras): **R$ 281.400**
-Receita máxima cenário otimista (12 cadeiras + Co-Líder premium): **R$ 529.200+**
+Receita mínima cenário conservador (8 cadeiras): **R$ 199.200 (calculo com R$ 29.900 x 8 - Co-Lider premium)**
+Receita máxima cenário otimista (12 cadeiras + Co-Líder premium): **R$ 358.800 (12 cadeiras a vista + Co-Lider premium)+**
 
 ## Apoio institucional pedido
 
@@ -192,7 +192,7 @@ Receita máxima cenário otimista (12 cadeiras + Co-Líder premium): **R$ 529.20
 - Endosso público formalizado
 
 **Nível 2 · Cadeiras Abrasel com desconto (canal comercial)**
-- Abrasel indica associados-alvo para cadeira Abrasel (10-15% desconto sobre R$ 42k)
+- Abrasel indica associados-alvo para cadeira Abrasel (10-15% desconto sobre R$ 29.900 a vista (12x R$ 2.999))
 - Meta: 2-4 cadeiras Abrasel vendidas via canal institucional
 - Sinergia com Nível 1 · mais efetivo se endosso público está firmado
 
@@ -224,7 +224,7 @@ R: **Zero custo operacional.** Abrasel entra como endossante institucional · co
 **Q: Quantos brasileiros esperam levar?**
 R: 8-12 cadeiras na missão 1 (outubro 2026). Escala em 2027 · 2 missões/ano · 30+ cadeiras acumuladas.
 
-**Q: Por que R$ 42k é o ticket?**
+**Q: Por que R$ 29.900 a vista (12x R$ 2.999) é o ticket?**
 R: cobre curadoria (Matheus + Felipe + Thiago) · guias PT/EN · traslados internos · visitas técnicas confirmadas · refeições-chave · Canton Fair badge · kit briefing · relatório pós-viagem. Passagem e hotel não inclusos (cadeira compra individualmente). Ticket alinhado com missões institucionais BR-Ásia comparáveis.
 
 **Q: Como Abrasel recomenda a missão a associados?**
