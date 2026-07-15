@@ -35,6 +35,21 @@ Detalhe em [`roteiro.md`](./roteiro.md). Blocos: **Pequim** (institucional/IA) �
 
 Alimenta as outras frentes do grupo: food (restaurantes/delivery, leitura do Meituan), tech/IA (4Paradigm), e sourcing/manufatura (Yiwu, DJI). Pode gerar um produto adjacente de **sourcing/importação** (trazer e vender no Brasil) · a avaliar com cuidado regulatório.
 
+## Como navegar este repo
+
+- [`NAMING-GUIDE.md`](./NAMING-GUIDE.md) · glossário canônico do domínio China (pessoas · cidades PT/EN · players · siglas)
+- [`roteiro.md`](./roteiro.md) · roteiro operacional condensado 15 dias (original Thiago)
+- [`docs/contexto/`](./docs/contexto/) · por-que-china (tese macro) + movimento Brasil-China (camada institucional Abrasel)
+- [`docs/viagem-jan-fev-2026/`](./docs/viagem-jan-fev-2026/) · viagem de reconhecimento anterior + itinerary.csv original
+- [`docs/missao-outubro-2026/`](./docs/missao-outubro-2026/) · visão + 4 tipos de cadeira + agenda dia-a-dia
+- [`docs/pilares/`](./docs/pilares/) · Tech Import · Industry Deal · Market Intelligence
+- [`docs/players/`](./docs/players/) · marketplaces · tech/IA · manufatura/sourcing · institucional
+- [`docs/nucleo/`](./docs/nucleo/) · perfis Matheus + Thiago + Felipe (papel-China)
+- [`docs/financeiro/`](./docs/financeiro/) · modelo comercial + projeção 3 anos
+- [`pitch/`](./pitch/) · pitch cinematográfico HTML (movido de `~/projects/brasil-china-abrasel/`)
+- [`reunioes/`](./reunioes/) · notas de reunião assíncronas (esqueleto · popular sob demanda)
+- [`decisoes/`](./decisoes/) · ADRs formais (esqueleto · popular sob demanda)
+
 ## Próximos passos
 
 - [ ] Travar as datas do roteiro em torno da Canton Fair (outubro).
