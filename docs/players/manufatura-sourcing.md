@@ -1,6 +1,6 @@
 # Players · manufatura + sourcing (China)
 
-Fabricantes e hubs de atacado chineses relevantes pro pilar Industry Deal do corredor Brasil-China. Foco: onde comprar direto sem intermediário.
+Fabricantes e hubs de atacado chineses relevantes pro pilar Supply Chain do corredor Brasil-China. Foco: onde comprar direto sem intermediário.
 
 ## Yiwu International Business (Yiwu)
 
@@ -66,7 +66,7 @@ Fabricantes e hubs de atacado chineses relevantes pro pilar Industry Deal do cor
 - **Fraude na entrega** · mercadoria diferente do sample é risco real · mitigar com auditor
 - **Câmbio + hedge** · deal grande sem hedge exposto a variação cambial · política obrigatória
 
-## Casos-alvo (referência do pilar 2 · Industry Deal)
+## Casos-alvo (referência do pilar 2 · Supply Chain)
 
 - **Consolidação container packaging** · 5-10 lojas BR sourceando via 1 container consolidado Q1 2027
 - **Deal fábrica equipamento** · 1 rede compra linha completa direto Q2 2027
@@ -82,7 +82,7 @@ Fabricantes e hubs de atacado chineses relevantes pro pilar Industry Deal do cor
 
 ## Related
 
-- `docs/pilares/industry-deal.md` · pilar 2 (fábricas + insumos)
+- `docs/pilares/supply-chain.md` · pilar 2 (fábricas + insumos)
 - `docs/players/tech-ia.md` · DJI (também é fábrica visitável)
 - `docs/players/institucional.md` · MOFCOM · consultor tributário · despachante
 - `docs/missao-outubro-2026/agenda-dia-a-dia.md` · bloco 3 (Yiwu) + bloco 4 (Canton Fair)

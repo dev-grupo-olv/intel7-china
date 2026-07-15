@@ -102,7 +102,7 @@ Mapeamento dos marketplaces relevantes pro corredor Brasil-China. **Contexto cr�
 - `docs/parcerias/ifood.md` · estratégia formal engagement iFood
 - `docs/players/tech-ia.md` · Alibaba · 4Paradigm · DJI · Tencent · ByteDance
 - `docs/players/institucional.md` · Abrasel · MOFCOM · Câmaras Brasil-China
-- `docs/pilares/market-intelligence.md` · como intel Meituan/KeeTa vira produto
+- `docs/pilares/equipamento-e-maquinario.md` · como intel Meituan/KeeTa vira produto
 - `docs/missao-outubro-2026/agenda-dia-a-dia.md` · bloco 2 (Xangai · Meituan)
 
 ## Sources

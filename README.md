@@ -20,7 +20,9 @@ Lançamento ancorado na **Canton Fair** (Cantão), a maior feira da China (~outu
 
 ## Roteiro (visão) · ~15 dias
 
-Detalhe em [`roteiro.md`](./roteiro.md). Blocos: **Pequim** (institucional/IA) → **Xangai** (comercial/tech) → **Yiwu** (atacado/exportação) → **Cantão / Canton Fair** → **Hong Kong** (saída + folga).
+Detalhe em [`roteiro.md`](./roteiro.md) + agenda dia a dia em [`docs/missao-outubro-2026/agenda-dia-a-dia.md`](./docs/missao-outubro-2026/agenda-dia-a-dia.md). Blocos: **Pequim** (institucional/IA · 3-4 dias) → **Xangai** (comercial/tech · 3 dias) → **Yiwu** (atacado/sourcing · 2 dias) → **Cantão · Canton Fair Fase 3 FOOD** (31 out a 4 nov 2026 · 3-4 dias) → **Hong Kong** (saída · 1-2 dias).
+
+Deep-dive por cidade em [`docs/cidades/`](./docs/cidades/) (5 arquivos densos: hospedagens executivas · agenda detalhada · restaurantes canônicos · deslocamentos · notas culturais).
 
 ## Alvos de visita técnica
 
@@ -37,13 +39,16 @@ Alimenta as outras frentes do grupo: food (restaurantes/delivery, leitura do Mei
 
 ## Como navegar este repo
 
-- [`NAMING-GUIDE.md`](./NAMING-GUIDE.md) · glossário canônico do domínio China (pessoas · cidades PT/EN · players · siglas)
+- [`NAMING-GUIDE.md`](./NAMING-GUIDE.md) · glossário canônico do domínio China (pessoas · cidades PT/EN · players · siglas · política visa-free 2026 · Canton Fair 140ª edição datas)
 - [`roteiro.md`](./roteiro.md) · roteiro operacional condensado 15 dias (original Thiago)
 - [`docs/contexto/`](./docs/contexto/) · por-que-china (tese macro) + movimento Brasil-China (camada institucional Abrasel)
+- [`docs/cidades/`](./docs/cidades/) · **deep-dive por cidade** (Pequim · Xangai · Yiwu · Cantão · Hong Kong) · hospedagens · agenda · restaurantes · deslocamentos
 - [`docs/viagem-jan-fev-2026/`](./docs/viagem-jan-fev-2026/) · viagem de reconhecimento anterior + itinerary.csv original
-- [`docs/missao-outubro-2026/`](./docs/missao-outubro-2026/) · visão + 4 tipos de cadeira + agenda dia-a-dia
-- [`docs/pilares/`](./docs/pilares/) · Tech Import · Industry Deal · Market Intelligence
-- [`docs/players/`](./docs/players/) · marketplaces · tech/IA · manufatura/sourcing · institucional
+- [`docs/missao-outubro-2026/`](./docs/missao-outubro-2026/) · visão + 4 tipos de cadeira + agenda dia-a-dia (Canton Fair Fase 3 FOOD 31 out-4 nov)
+- [`docs/pilares/`](./docs/pilares/) · **3 pilares técnicos** · IA e Tech · Supply Chain · Equipamento e Maquinário
+- [`docs/players/`](./docs/players/) · marketplaces (Meituan/KeeTa · iFood) · tech/IA (4Paradigm · Alibaba · DJI) · manufatura/sourcing · institucional
+- [`docs/parcerias/`](./docs/parcerias/) · **estratégia formal engagement** iFood · Abrasel · Câmaras Brasil-China
+- [`docs/operacional/`](./docs/operacional/) · visto/entrada (visa-free 2026 ativa) · logística importação Yiwu → Santos
 - [`docs/nucleo/`](./docs/nucleo/) · perfis Matheus + Thiago + Felipe (papel-China)
 - [`docs/financeiro/`](./docs/financeiro/) · modelo comercial + projeção 3 anos
 - [`pitch/`](./pitch/) · pitch cinematográfico HTML (movido de `~/projects/brasil-china-abrasel/`)

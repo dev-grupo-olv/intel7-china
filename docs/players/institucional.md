@@ -104,7 +104,7 @@ Instituições · associações · órgãos governamentais que dão legitimidade
 - `docs/players/marketplaces.md` · iFood (stakeholder BR)
 - `docs/players/tech-ia.md` · Alibaba · 4Paradigm (contrapartes China)
 - `docs/players/manufatura-sourcing.md` · Yiwu · Canton Fair
-- `docs/pilares/industry-deal.md` · onde escritório + despachante + tributário viram operação real
+- `docs/pilares/supply-chain.md` · onde escritório + despachante + tributário viram operação real
 - `docs/contexto/movimento-brasil-china.md` · camada institucional geral
 
 ## Changelog

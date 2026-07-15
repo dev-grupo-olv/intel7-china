@@ -26,13 +26,15 @@ Este repo consolida DUAS iniciativas que rodam em paralelo com mesmo núcleo hum
 
 Não são projetos separados · são camadas do mesmo movimento (produto ancora curadoria · movimento ancora relacionamento institucional).
 
-## Alvos de captura de valor
+## Alvos de captura de valor · 3 pilares técnicos
 
-- **Tech Import** · trazer stack de operação food service da China (automação cozinha · IA · ghost kitchens · POS integrado)
-- **Industry Deal** · acordos com fábricas chinesas (equipamento · packaging · insumos a preços de origem)
-- **Market Intelligence** · inteligência sobre operação real de Meituan/Ele.me · decisores · fluxos cross-border TMall
+- **IA e Tech** · IA de decisão (4Paradigm) · stack food-tech operacional (Meituan/KeeTa · dark kitchens · POS integrado · drone delivery)
+- **Supply Chain** · packaging + descartáveis + insumos food service + uniforme via Yiwu + Canton Fair · consolidação container Yiwu → Santos
+- **Equipamento e Maquinário** · fornos + fritadeiras + linhas de produção + robôs wok + POS hardware · deal unitário alto valor com certificação BR
 
-Detalhes em `docs/pilares/`.
+Detalhes em `docs/pilares/ia-e-tech.md` · `docs/pilares/supply-chain.md` · `docs/pilares/equipamento-e-maquinario.md`.
+
+**Nota:** Market Intelligence (report + newsletter + consultoria estratégica) NÃO é pilar autônomo · é output natural dos 3 pilares (a operação gera intel que vira produto secundário).
 
 ## Por que agora
 

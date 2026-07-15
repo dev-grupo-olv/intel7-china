@@ -12,13 +12,13 @@ Um movimento nomeado publicamente "Brasil ↔ China · Abrasel + Marketplaces" �
 
 Sem endosso institucional (Abrasel · marketplaces · câmaras), o produto de imersão vira "mais uma empresa de viagem". Com endosso, o produto vira **infraestrutura de acesso** que a categoria adota. Diferença de posicionamento define diferença de preço e defensabilidade.
 
-## Estrutura de 3 pilares (captura de valor)
+## Estrutura de 3 pilares técnicos (captura de valor)
 
 Detalhes em `docs/pilares/`. Resumo:
 
-1. **Tech Import** · stack de operação food service China → Brasil (automação cozinha · IA · ghost kitchens · POS integrado)
-2. **Industry Deal** · fábricas chinesas + preço-fonte (equipamento · packaging · insumos)
-3. **Market Intelligence** · inteligência operacional Meituan/Ele.me + fluxos cross-border TMall
+1. **IA e Tech** · IA de decisão (4Paradigm) · food-tech operacional (Meituan/KeeTa · dark kitchens · POS integrado · drone delivery)
+2. **Supply Chain** · packaging + descartáveis + insumos + uniforme (Yiwu + Canton Fair) · consolidação container Yiwu → Santos
+3. **Equipamento e Maquinário** · fornos + fritadeiras + linhas + robôs wok + POS hardware · alto valor com certificação BR
 
 ## Roadmap em 2 fases
 

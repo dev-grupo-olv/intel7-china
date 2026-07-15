@@ -117,8 +117,8 @@ Modelo pensado: 8-12 cadeiras cobrem custo total da missão + geram margem + tud
 
 - `docs/missao-outubro-2026/cadeiras-missao.md` · detalhe dos 4 tipos
 - `docs/financeiro/projecao-3-anos.md` · captura macro corredor
-- `docs/pilares/tech-import.md` · como cadeira vira deal (pilar 1)
-- `docs/pilares/industry-deal.md` · como cadeira vira deal (pilar 2)
+- `docs/pilares/ia-e-tech.md` · como cadeira vira deal (pilar 1)
+- `docs/pilares/supply-chain.md` · como cadeira vira deal (pilar 2)
 
 ## Changelog
 

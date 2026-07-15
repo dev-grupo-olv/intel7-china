@@ -21,9 +21,9 @@ Distribuição por pilar:
 
 | Pilar | Meta 3 anos | Modelo |
 |---|---|---|
-| Pilar 1 · Tech Import | R$ 80 mi | Fee intermediação + consultoria + integração |
-| Pilar 2 · Industry Deal | R$ 180 mi | Fee % sobre volume + consolidação container + exclusividade |
-| Pilar 3 · Market Intelligence | R$ 20 mi | Report assinado + consultoria + palestra + newsletter |
+| Pilar 1 · IA e Tech | R$ 80 mi | Fee intermediação + consultoria + integração |
+| Pilar 2 · Supply Chain | R$ 180 mi | Fee % sobre volume + consolidação container + exclusividade |
+| Pilar 3 · Equipamento e Maquinário | R$ 20 mi | Report assinado + consultoria + palestra + newsletter |
 | **Total** | **R$ 280 mi** | |
 
 **Margem projetada:** 12-18% · comparável a trading houses agro (Cofco · Chinamex).
@@ -103,9 +103,9 @@ Distribuição por pilar:
 ## Related
 
 - `docs/financeiro/modelo-comercial.md` · unit economics do produto de imersão (missão)
-- `docs/pilares/tech-import.md` · pilar 1 (fluxo direto)
-- `docs/pilares/industry-deal.md` · pilar 2 (fluxo direto)
-- `docs/pilares/market-intelligence.md` · pilar 3 (fluxo direto)
+- `docs/pilares/ia-e-tech.md` · pilar 1 (fluxo direto)
+- `docs/pilares/supply-chain.md` · pilar 2 (fluxo direto)
+- `docs/pilares/equipamento-e-maquinario.md` · pilar 3 (fluxo direto)
 - `docs/players/institucional.md` · Abrasel · CCAB · escritórios parceiros
 
 ## Changelog

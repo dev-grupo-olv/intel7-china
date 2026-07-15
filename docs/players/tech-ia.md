@@ -9,7 +9,7 @@ Empresas-referência de tech e IA na China que são alvo de visita técnica ou b
 - **Relevância pro corredor** · âncora institucional do bloco 1 (Pequim) · visita aberta ao público · caso concreto de IA aplicada em food-tech e retail
 - **Uso pelo produto INTEL7** · visita técnica bloco 1 · agendamento antecipado obrigatório
 - **Aplicação BR potencial** · pricing dinâmico · previsão de demanda · staffing · fraud detection · churn prediction
-- **Prioridade Ano 1** · P0 (âncora do pilar 1 · Tech Import)
+- **Prioridade Ano 1** · P0 (âncora do pilar 1 · IA e Tech)
 
 ## Alibaba
 
@@ -41,7 +41,7 @@ Empresas-referência de tech e IA na China que são alvo de visita técnica ou b
 
 - **O que é** · dona do Douyin (China) e TikTok (global)
 - **Sede** · Pequim
-- **Relevância pro corredor** · pilar 3 (Market Intelligence) · trend spotting de comércio social
+- **Relevância pro corredor** · subproduto do pilar IA e Tech (trend spotting comércio social · report/newsletter)
 - **Uso pelo produto INTEL7** · sem visita técnica formal · objeto de estudo constante
 - **Prioridade Ano 1** · P2
 
@@ -76,7 +76,7 @@ Empresas-referência de tech e IA na China que são alvo de visita técnica ou b
 - `docs/players/marketplaces.md` · Meituan · Ele.me (Alibaba subsidiary)
 - `docs/players/manufatura-sourcing.md` · Yiwu · fábricas Guangzhou
 - `docs/players/institucional.md` · Abrasel · MOFCOM · CCAB
-- `docs/pilares/tech-import.md` · como 4Paradigm/Alibaba viram deal Ano 1
+- `docs/pilares/ia-e-tech.md` · como 4Paradigm/Alibaba viram deal Ano 1
 - `docs/missao-outubro-2026/agenda-dia-a-dia.md` · blocos 1 e 2
 
 ## Changelog

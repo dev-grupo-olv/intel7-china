@@ -78,7 +78,7 @@ Glossário canônico do domínio China usado neste repo. Serve como referência 
 
 - **Corredor Brasil-China** · fluxo institucional + comercial + tecnológico BR↔China lastreado Abrasel + marketplaces
 - **Swing state** · posição do Brasil no realinhamento USA-China (referência Ray Dalio · Dumbledore SOUL)
-- **Tech Import · Industry Deal · Market Intelligence** · 3 pilares de captura de valor do corredor (detalhe em `docs/pilares/`)
+- **IA e Tech · Supply Chain · Equipamento e Maquinário** · 3 pilares técnicos de captura de valor do corredor (detalhe em `docs/pilares/`)
 
 ## Regras de escrita
 
