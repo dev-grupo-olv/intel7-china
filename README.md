@@ -1,12 +1,12 @@
 # intel7-china
 
-Vertical **INTEL7 China** — produto de **imersão de negócios na China** para empresários brasileiros. Curadoria + parcerias locais para visitar o estado da arte em IA, food-tech, delivery e manufatura, e abrir portas comerciais.
+Vertical **INTEL7 China** · produto de **imersão de negócios na China** para empresários brasileiros. Curadoria + parcerias locais para visitar o estado da arte em IA, food-tech, delivery e manufatura, e abrir portas comerciais.
 
-> Sociedade INTEL7 (Thiago Dam + Matheus Busson). Projeto irmão do `intel7-felipe-vecchi-launch`. **Não pertence à org da Øliver's** — é INTEL7.
+> Sociedade INTEL7 (Thiago Dam + Matheus Busson). Projeto irmão do `intel7-felipe-vecchi-launch`. **Não pertence à org da Øliver's** · é INTEL7.
 
 ## Tese
 
-Ser **pioneiro de um movimento** que se consolida na próxima década: levar empresário brasileiro pra ver e comprar na fonte (indústria, IA, food-tech chinês). Turismo **de negócios**, não turismo de lazer — a curadoria e o acesso a fornecedores/empresas-referência são o valor.
+Ser **pioneiro de um movimento** que se consolida na próxima década: levar empresário brasileiro pra ver e comprar na fonte (indústria, IA, food-tech chinês). Turismo **de negócios**, não turismo de lazer · a curadoria e o acesso a fornecedores/empresas-referência são o valor.
 
 ## Modelo comercial
 
@@ -16,24 +16,24 @@ Ser **pioneiro de um movimento** que se consolida na próxima década: levar emp
 
 ## Timing de mercado
 
-Lançamento ancorado na **Canton Fair** (Cantão), a maior feira da China (~outubro; roda ~45 dias). É o evento que "leva todo mundo pra China" — na temporada, a passagem sobe forte, então a janela de venda é definida por ela.
+Lançamento ancorado na **Canton Fair** (Cantão), a maior feira da China (~outubro; roda ~45 dias). É o evento que "leva todo mundo pra China" · na temporada, a passagem sobe forte, então a janela de venda é definida por ela.
 
-## Roteiro (visão) — ~15 dias
+## Roteiro (visão) · ~15 dias
 
 Detalhe em [`roteiro.md`](./roteiro.md). Blocos: **Pequim** (institucional/IA) → **Xangai** (comercial/tech) → **Yiwu** (atacado/exportação) → **Cantão / Canton Fair** → **Hong Kong** (saída + folga).
 
 ## Alvos de visita técnica
 
-- **4Paradigm** — referência em IA de decisão / infraestrutura de tomada de decisão de dados (visita aberta ao público).
-- **Meituan** — maior plataforma de delivery do mundo (food-tech).
-- **Alibaba** — e-commerce/tech.
-- **DJI** — fábrica (hardware).
-- **Yiwu International Business** — maior atacado do mundo, acostumado a exportar pro Brasil.
+- **4Paradigm** · referência em IA de decisão / infraestrutura de tomada de decisão de dados (visita aberta ao público).
+- **Meituan** · maior plataforma de delivery do mundo (food-tech).
+- **Alibaba** · e-commerce/tech.
+- **DJI** · fábrica (hardware).
+- **Yiwu International Business** · maior atacado do mundo, acostumado a exportar pro Brasil.
 - Restaurantes (benchmarking de operação, com abertura de cozinha).
 
 ## Conexão com o ecossistema
 
-Alimenta as outras frentes do grupo: food (restaurantes/delivery, leitura do Meituan), tech/IA (4Paradigm), e sourcing/manufatura (Yiwu, DJI). Pode gerar um produto adjacente de **sourcing/importação** (trazer e vender no Brasil) — a avaliar com cuidado regulatório.
+Alimenta as outras frentes do grupo: food (restaurantes/delivery, leitura do Meituan), tech/IA (4Paradigm), e sourcing/manufatura (Yiwu, DJI). Pode gerar um produto adjacente de **sourcing/importação** (trazer e vender no Brasil) · a avaliar com cuidado regulatório.
 
 ## Próximos passos
 
