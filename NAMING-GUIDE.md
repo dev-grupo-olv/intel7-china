@@ -35,20 +35,36 @@ Glossário canônico do domínio China usado neste repo. Serve como referência 
 
 ## Players tech / food-tech China
 
-- **Meituan** · maior plataforma de delivery do mundo · sede Xangai · benchmark de food-tech
-- **Ele.me** · segunda maior plataforma delivery China · subsidiária Alibaba
-- **Douyin** · TikTok versão China · plataforma social + delivery + comércio local
-- **4Paradigm** · referência em IA de decisão / infraestrutura de tomada de decisão de dados · visita técnica aberta ao público · âncora institucional bloco Pequim
-- **Alibaba** · e-commerce / TMall Global · sede Hangzhou · visita técnica Bloco Xangai
+- **Meituan** · maior plataforma de delivery do mundo · **sede Beijing** (opera Xangai como base regional Yangtze River Delta) · benchmark food-tech · listada HKEX · dona do KeeTa (marca overseas) · visitas corporativas organizadas via programa institucional (referência: visita Tsinghua International Education abril 2026 · demo drone delivery KeeTa in-loco)
+- **KeeTa** · marca overseas do Meituan · **lançou no Brasil 30/10/2025** em Santos + São Vicente com plano de expansão São Paulo até fim de 2025 · $1 bilhão de investimento em 5 anos · precedente Riyadh (set/2024 · virou líder em meses) + Hong Kong (2023, dobrou vendas de restaurantes parceiros em 2 anos)
+- **Ele.me** · segunda maior plataforma delivery China · subsidiária Alibaba desde 2018
+- **Douyin** · TikTok versão China · plataforma social + delivery + comércio local · ByteDance
+- **4Paradigm** · empresa listada Hong Kong (símbolo 6682.HK) · referência enterprise AI decision-making · **sede Beijing** · revenue RMB 3.2 bi 9M/2024 (+26.1% YoY) · sem programa público formal de visita (acesso via investor relations · a formalizar)
+- **Alibaba** · e-commerce / TMall Global · **sede Hangzhou** · guarda-chuva Taobao · Tmall · Alipay · Ant Group · Cainiao · AliCloud · Ele.me
 - **DJI** · líder global drones · fábrica Shenzhen visitável · exemplo de hardware manufacturing China
 - **TMall Global** · plataforma cross-border e-commerce · rota importação China→Brasil
 - **Ant Group / Alipay** · sistema de pagamentos cross-border · dependência crítica para o corredor
 - **Cainiao** · braço logístico Alibaba · rede internacional
+- **iFood** · lado BR · maior marketplace delivery Brasil (80%+ market share em out/2025) · em posição defensiva contra Keeta Brasil · aliança maio/2025 com Uber (integração cross-app) · **stakeholder-alvo do movimento**
+- **99Food (Didi)** · vertical food da 99 · também alvo Meituan/Keeta na guerra Brasil
 
 ## Eventos-âncora
 
-- **Canton Fair** · maior feira da China · roda ~45 dias (outubro) · entrada gratuita mediante registro obrigatório · timing-âncora do produto de imersão
-- **NRA Show** · National Restaurant Association Chicago · não é China, mas eixo narrativo INTEL7 (2026-05-16 a 19)
+- **Canton Fair 2026 Autumn (140ª edição)** · maior feira da China · China Import and Export Fair Complex · Pazhou · Guangzhou · **datas oficiais 15 outubro a 4 novembro 2026** em 3 fases:
+  - **Fase 1** · 15-19 outubro · Electronics + Household Appliances + Industrial + Hardware + Building Materials + New Energy + Vehicles
+  - **Fase 2** · 23-27 outubro · Consumer Goods + Gifts + Home Deco
+  - **Fase 3** · 31 outubro a 4 novembro · Textiles + Shoes + Office/School + Health + **FOOD** + Medical
+  - **Fase 3 é a janela crítica pro vertical INTEL7 China** (categoria FOOD)
+  - Registro online gratuito (sem taxa) · 100 RMB se registrar no local · 200 RMB late registration
+  - Buyer badge obrigatório · sistema Canton Fair Buyer Service System · invitation letter serve para visto expresso
+- **SIAL Shanghai 2026** · feira food/tech China · alvo secundário se compatível com datas
+- **NRA Show 2026 (Chicago · 16-19 maio)** · precedente institucional Abrasel (800+ brasileiros · relatório publicado) · não é China mas serve de modelo pra estrutura de missão
+
+## Política de visto e entrada
+
+- **Brasil visa-free China** · vigor **11 maio 2026 a 31 dezembro 2026** (política recíproca temporária) · **stays até 30 dias por entrada** · extensível até 90 dias em janela 12 meses · não cobre trabalho/estudo remunerado · renovação 2027 a monitorar
+- **240h transit visa-free** · alternativa Shenzhen/HK gateway
+- **Passaporte válido 6+ meses** · exigência standard
 
 ## Terminologia do produto de imersão
 
