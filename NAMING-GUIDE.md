@@ -11,7 +11,7 @@ Glossário canônico do domínio China usado neste repo. Serve como referência 
 ## Sociedade / marcas
 
 - **INTEL7** · sociedade Matheus + Thiago (50/50 comunidade nova). Verticais ativas: `intel7-felipe-vecchi-launch` (produto delivery) · `intel7-china` (este repo, produto imersão)
-- **NewCo** · empresa resultante da fusão Oliver's + Rob Food Q2 2026 (CEO Mattias Almeida). **Não confundir com** "Grupo Hobby" (erro recorrente sanitizado 2026-07-06 · Rob Food é o nome correto)
+- **NewCo** · empresa resultante da fusão Oliver's + Rob Food Q2 2026 (CEO Mattias Almeida). **Não confundir com** "Rob Food" (erro recorrente sanitizado 2026-07-06 · Rob Food é o nome correto)
 - **Ghost Lab 7 / GL7** · empresa do Thiago Dam · stack multiagente em produção. **Nome preservado por lineage histórico**, mas nomenclatura nova OLV usa sufixo `-olv` (regra NO-GL7)
 - **Grupo OLV** · guarda-chuva 8 marcas F&B em SP: Oliver's · Rajas · Temaqueria · Bistrugro · portfolio NewCo pós-fusão
 

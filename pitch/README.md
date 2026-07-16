@@ -45,7 +45,7 @@ Seções (por âncora `id=`):
 - `#fluxo` · missão auto-financiada · cadeiras pagas · ROI 2027-2028
 - `#movimento` · Abrasel SP/RJ/Campinas/Nacional · marketplaces · timing
 - `#time` · Matheus · Felipe · Thiago (bio Felipe em `[EDITAR]`)
-- `#traction` · Grupo Hobby (nome antigo · corrigir pra NewCo/Rob Food) · Abrasel · Ghost Lab 7
+- `#traction` · Rob Food (nome antigo · corrigir pra NewCo/Rob Food) · Abrasel · Ghost Lab 7
 - `#moat` · 5 diferenciais defensáveis
 - Fechamento · CTA + contato
 
@@ -54,7 +54,7 @@ Seções (por âncora `id=`):
 **Críticas:**
 - `[EDITAR]` na bio de Felipe (seção Time · card do meio) · fechar antes de qualquer envio
 - Grafia "Felipe Vechi" → sanitizar pra "Felipe Vecchi" (grafia oficial · dois C's)
-- Referência "Grupo Hobby" (seção Traction) → corrigir pra "NewCo (pós-fusão Oliver's + Rob Food)"
+- Referência "Rob Food" (seção Traction) → corrigir pra "NewCo (pós-fusão Oliver's + Rob Food)"
 
 **Números `[fonte: validar]` no diagnóstico:**
 - 10x (penetração marketplace F&B)
@@ -115,7 +115,7 @@ Antes de compartilhar com qualquer stakeholder externo:
 
 - [ ] Substituir `[EDITAR]` na bio Felipe
 - [ ] Sanitizar "Felipe Vechi" → "Felipe Vecchi"
-- [ ] Sanitizar "Grupo Hobby" → "NewCo (Oliver's + Rob Food)"
+- [ ] Sanitizar "Rob Food" → "NewCo (Oliver's + Rob Food)"
 - [ ] Validar ou remover placeholders `[fonte: validar]`
 - [ ] Confirmar contato email/WhatsApp real
 - [ ] Testar em Safari + Chrome (desktop)
