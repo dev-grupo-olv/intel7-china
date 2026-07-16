@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#08080a" />
+<title>Missão China Food · 24 out — 7 nov 2026 · INTEL7</title>
+<meta name="description" content="Missão comercial curada Brasil ↔ China · 15 dias · 5 cidades · ancorada na Canton Fair Fase 3 FOOD. Realização Matheus Busson, Felipe Vecchi e Thiago Dam." />
+<meta property="og:title" content="Missão China Food · outubro 2026" />
+<meta property="og:description" content="15 dias entre Pequim, Xangai, Yiwu, Cantão e Hong Kong · Canton Fair Fase 3 FOOD" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: {
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'monospace'],
+      },
+    },
+  },
+};
+</script>
+
+<style>
+  :root {
+    --ink: #08080a;
+    --smoke: #12121a;
+    --bone: #f5f1e8;
+    --verde: #00a352;
+    --amarelo: #ffcc29;
+    --vermelho: #e63946;
+    --dourado: #d4a574;
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--ink);
+    color: var(--bone);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-feature-settings: "ss01", "cv11";
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  .headline { font-family: "Playfair Display", serif; font-weight: 700; line-height: 1; letter-spacing: -0.02em; }
+  .italic { font-family: "Playfair Display", serif; font-style: italic; font-weight: 400; }
+  .mono { font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; }
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--dourado);
+    font-weight: 500;
+  }
+  .huge {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    font-size: clamp(3rem, 8.5vw, 7rem);
+  }
+  .gradient-full {
+    background: linear-gradient(90deg, #00a352 0%, #ffcc29 40%, #d4a574 65%, #e63946 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gradient-china {
+    background: linear-gradient(90deg, #d4a574 0%, #e63946 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gradient-brasil {
+    background: linear-gradient(90deg, #00a352 0%, #ffcc29 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blur-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(140px);
+    opacity: 0.14;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: border-color 0.4s, transform 0.4s;
+    border-radius: 8px;
+  }
+  .card:hover {
+    border-color: rgba(212,165,116,0.4);
+    transform: translateY(-2px);
+  }
+  .card-anchor {
+    background: linear-gradient(180deg, rgba(212,165,116,0.10), rgba(212,165,116,0.01));
+    border: 1px solid rgba(212,165,116,0.35);
+    border-radius: 8px;
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 32px;
+    background: var(--dourado);
+    color: var(--ink);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+    border-radius: 2px;
+  }
+  .btn-primary:hover { background: var(--bone); }
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 32px;
+    border: 1px solid rgba(255,255,255,0.15);
+    color: var(--bone);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+    border-radius: 2px;
+  }
+  .btn-ghost:hover { border-color: var(--dourado); color: var(--dourado); }
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212,165,116,0.2), transparent);
+  }
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    border: 1px solid;
+    border-radius: 999px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-weight: 500;
+  }
+  .tag-dourado { color: #d4a574; border-color: rgba(212,165,116,0.4); background: rgba(212,165,116,0.06); }
+  .tag-verde { color: #00a352; border-color: rgba(0,163,82,0.4); background: rgba(0,163,82,0.06); }
+  .tag-vermelho { color: #e63946; border-color: rgba(230,57,70,0.4); background: rgba(230,57,70,0.06); }
+  .tag-amarelo { color: #ffcc29; border-color: rgba(255,204,41,0.4); background: rgba(255,204,41,0.06); }
+  .pulse-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 1.8s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+  }
+  ::selection { background: var(--dourado); color: var(--ink); }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="fixed top-0 left-0 right-0 z-50" style="background: rgba(8,8,10,0.75); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(212,165,116,0.1);">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <span class="pulse-dot" style="color:#d4a574"></span>
+      <span class="mono text-xs uppercase" style="color:#f5f1e8">INTEL7 · China Food</span>
+    </div>
+    <div class="hidden md:flex items-center gap-6">
+      <a href="#roteiro" class="mono text-xs uppercase" style="color:rgba(245,241,232,0.7); letter-spacing:0.18em">Roteiro</a>
+      <a href="#pilares" class="mono text-xs uppercase" style="color:rgba(245,241,232,0.7); letter-spacing:0.18em">Pilares</a>
+      <a href="#nucleo" class="mono text-xs uppercase" style="color:rgba(245,241,232,0.7); letter-spacing:0.18em">Núcleo</a>
+      <a href="#investimento" class="btn-primary" style="padding: 10px 20px; font-size: 0.72rem;">Reservar vaga</a>
+    </div>
+    <span class="mono text-xs md:hidden" style="color:rgba(245,241,232,0.5)">24/10 — 07/11</span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="relative min-h-screen flex items-center overflow-hidden pt-32 pb-20">
+  <div class="blur-blob" style="background: #00a352; width: 500px; height: 500px; top: -100px; left: -100px;"></div>
+  <div class="blur-blob" style="background: #e63946; width: 500px; height: 500px; bottom: -150px; right: -150px;"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+    <div class="flex flex-wrap items-center gap-3 mb-10 fade-in">
+      <span class="tag tag-dourado"><span class="pulse-dot"></span> Missão institucional · outubro 2026</span>
+      <span class="tag tag-vermelho">Canton Fair · Fase 3 · FOOD</span>
+    </div>
+
+    <h1 class="huge fade-in mb-10" style="color:#f5f1e8">
+      <span style="color:rgba(245,241,232,0.85)">A missão que coloca</span><br />
+      <span style="color:#f5f1e8">você dentro</span><br />
+      <span class="italic gradient-full">do futuro</span><br />
+      <span style="color:#f5f1e8">do food service.</span>
+    </h1>
+
+    <p class="text-xl md:text-2xl max-w-3xl leading-relaxed mb-12 fade-in" style="color:rgba(245,241,232,0.78)">
+      Quinze dias entre <strong style="color:#f5f1e8">Pequim, Xangai, Yiwu, Cantão e Hong Kong</strong>, ancorados na maior feira de food service da Ásia. Curadoria de <strong style="color:#f5f1e8">três operadores</strong> que estão à frente do movimento no Brasil.
+    </p>
+
+    <div class="flex flex-wrap items-center gap-4 fade-in">
+      <a href="#investimento" class="btn-primary">
+        Reservar vaga
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#roteiro" class="btn-ghost">Ver o roteiro</a>
+    </div>
+
+    <div class="mt-24 pt-10 border-t grid grid-cols-2 md:grid-cols-4 gap-8 fade-in" style="border-color:rgba(255,255,255,0.1)">
+      <div>
+        <div class="eyebrow mb-2">Período</div>
+        <div class="text-3xl md:text-4xl headline" style="color:#f5f1e8">15 dias</div>
+        <div class="mono text-xs mt-1" style="color:rgba(245,241,232,0.5)">24 out — 7 nov 2026</div>
+      </div>
+      <div>
+        <div class="eyebrow mb-2">Cidades</div>
+        <div class="text-3xl md:text-4xl headline" style="color:#f5f1e8">5</div>
+        <div class="mono text-xs mt-1" style="color:rgba(245,241,232,0.5)">Pequim → Hong Kong</div>
+      </div>
+      <div>
+        <div class="eyebrow mb-2">Delegação</div>
+        <div class="text-3xl md:text-4xl headline" style="color:#f5f1e8">8 a 12</div>
+        <div class="mono text-xs mt-1" style="color:rgba(245,241,232,0.5)">vagas curadas</div>
+      </div>
+      <div>
+        <div class="eyebrow mb-2">Âncora</div>
+        <div class="text-3xl md:text-4xl headline gradient-china">Canton Fair</div>
+        <div class="mono text-xs mt-1" style="color:rgba(245,241,232,0.5)">Fase 3 · FOOD</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 01 · POR QUE -->
+<section class="py-28 md:py-32 relative">
+  <div class="max-w-4xl mx-auto px-6">
+    <p class="eyebrow mb-6 fade-in">01 · Por que essa missão</p>
+    <h2 class="headline text-4xl md:text-6xl mb-10 fade-in" style="color:#f5f1e8">
+      A próxima década do food service<br />
+      <span class="italic gradient-full">está sendo escrita hoje.</span>
+    </h2>
+    <div class="space-y-6 text-lg md:text-xl leading-relaxed fade-in" style="color:rgba(245,241,232,0.8)">
+      <p>
+        A China resolveu em dez anos o que o Brasil ainda está formatando: <strong style="color:#f5f1e8">IA operacional, dark kitchens em escala, automação de cozinha, marketplace integrado ao ponto</strong>. Quem entende a fonte agora vai desenhar o mercado depois. Quem não entender vai operar dentro de regras escritas por outros.
+      </p>
+      <p>
+        Essa missão não é feira. Não é turismo empresarial. É <strong style="color:#f5f1e8">quinze dias de curadoria</strong> com três operadores brasileiros que vivem esse gap todo dia — e que já abriram os contatos, agendaram as visitas técnicas e travaram a agenda antes de você embarcar.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 02 · ROTEIRO -->
+<section id="roteiro" class="py-28 md:py-32 relative">
+  <div class="blur-blob" style="background:#d4a574; width:500px; height:500px; top:20%; right:-150px;"></div>
+  <div class="max-w-7xl mx-auto px-6 relative z-10">
+    <p class="eyebrow mb-6 fade-in">02 · Roteiro</p>
+    <h2 class="headline text-4xl md:text-6xl mb-6 fade-in" style="color:#f5f1e8">
+      Cinco cidades. <span class="italic gradient-china">Nada solto.</span>
+    </h2>
+    <p class="text-lg mb-16 max-w-2xl fade-in" style="color:rgba(245,241,232,0.65)">
+      Datas travadas em cima da Canton Fair Fase 3 FOOD (31 out — 4 nov). Ajustes finos com o grupo fechado.
+    </p>
+
+    <div class="space-y-4">
+      <div class="card p-8 fade-in grid md:grid-cols-[auto_1fr_auto] gap-8 items-center">
+        <div class="min-w-[120px]">
+          <div class="mono text-xs uppercase mb-1" style="color:#d4a574; letter-spacing:0.18em">Bloco 01</div>
+          <div class="headline text-4xl" style="color:#f5f1e8">Pequim</div>
+          <div class="mono text-xs mt-1" style="color:rgba(245,241,232,0.5)">北京 · 3 a 4 dias</div>
+        </div>
+        <div>
+          <div class="mono text-xs uppercase mb-2" style="color:#d4a574; letter-spacing:0.16em">Institucional · IA · abertura</div>
+          <p style="color:rgba(245,241,232,0.8)">
+            Cerimônia de abertura. Visita técnica <strong style="color:#f5f1e8">4Paradigm</strong> (IA de decisão) e <strong style="color:#f5f1e8">escritório da Meituan</strong>. Jantar de Peking Duck. Muralha da China · seção Mutianyu. Restaurante brasileiro operando em Pequim.
+          </p>
+        </div>
+        <div class="mono text-xs text-right" style="color:rgba(245,241,232,0.4); min-width:80px">24 – 27 out</div>
+      </div>
+
+      <div class="card p-8 fade-in grid md:grid-cols-[auto_1fr_auto] gap-8 items-center">
+        <div class="min-w-[120px]">
+          <div class="mono text-xs uppercase mb-1" style="color:#d4a574; letter-spacing:0.18em">Bloco 02</div>
+          <div class="headline text-4xl" style="color:#f5f1e8">Xangai</div>
+          <div class="mono text-xs mt-1" style="color:rgba(245,241,232,0.5)">上海 · 3 a 4 dias</div>
+        </div>
+        <div>
+          <div class="mono text-xs uppercase mb-2" style="color:#d4a574; letter-spacing:0.16em">Comercial · Tech · Cruzeiro Huangpu</div>
+          <p style="color:rgba(245,241,232,0.8)">
+            Apresentação institucional com patrocinador. <strong style="color:#f5f1e8">Cruzeiro noturno no Rio Huangpu</strong> com o grupo fechado. Visita à fábrica da <strong style="color:#f5f1e8">DJI</strong>, escritório da <strong style="color:#f5f1e8">Alibaba</strong>, empresa de logística cross-border. Ghost kitchens em Pudong.
+          </p>
+        </div>
+        <div class="mono text-xs text-right" style="color:rgba(245,241,232,0.4); min-width:80px">28 – 30 out</div>
+      </div>
+
+      <div class="card p-8 fade-in grid md:grid-cols-[auto_1fr_auto] gap-8 items-center">
+        <div class="min-w-[120px]">
+          <div class="mono text-xs uppercase mb-1" style="color:#d4a574; letter-spacing:0.18em">Bloco 03</div>
+          <div class="headline text-4xl" style="color:#f5f1e8">Yiwu</div>
+          <div class="mono text-xs mt-1" style="color:rgba(245,241,232,0.5)">义乌 · 1 dia</div>
+        </div>
+        <div>
+          <div class="mono text-xs uppercase mb-2" style="color:#d4a574; letter-spacing:0.16em">Sourcing · Yiwu Mercadão</div>
+          <p style="color:rgba(245,241,232,0.8)">
+            <strong style="color:#f5f1e8">Yiwu International Trade Market</strong> — 75 mil lojas em 5 distritos. Foco Supply Chain (packaging, utensílios, POS) com parceiro local PT/EN. Sessão paralela opcional de conteúdo.
+          </p>
+        </div>
+        <div class="mono text-xs text-right" style="color:rgba(245,241,232,0.4); min-width:80px">31 out</div>
+      </div>
+
+      <div class="card-anchor p-8 fade-in grid md:grid-cols-[auto_1fr_auto] gap-8 items-center">
+        <div class="min-w-[120px]">
+          <div class="mono text-xs uppercase mb-1" style="color:#d4a574; letter-spacing:0.18em">Bloco 04 · Âncora</div>
+          <div class="headline text-4xl gradient-china">Cantão</div>
+          <div class="mono text-xs mt-1" style="color:rgba(245,241,232,0.6)">广州 · 4 dias</div>
+        </div>
+        <div>
+          <div class="mono text-xs uppercase mb-2" style="color:#d4a574; letter-spacing:0.16em">Canton Fair Fase 3 · FOOD</div>
+          <p style="color:rgba(245,241,232,0.9)">
+            Quatro dias inteiros dentro da <strong style="color:#f5f1e8">Canton Fair Fase 3 · FOOD</strong> (Pazhou Complex). Reuniões pré-agendadas com fabricantes de packaging, equipamento e insumos. Assinatura de MoUs. Jantares Cantoneses. Encerramento oficial da missão no dia 4.
+          </p>
+        </div>
+        <div class="mono text-xs text-right" style="color:#d4a574; min-width:80px">01 – 04 nov</div>
+      </div>
+
+      <div class="card p-8 fade-in grid md:grid-cols-[auto_1fr_auto] gap-8 items-center" style="opacity:0.85">
+        <div class="min-w-[120px]">
+          <div class="mono text-xs uppercase mb-1" style="color:#d4a574; letter-spacing:0.18em">Bloco 05 · Opcional</div>
+          <div class="headline text-4xl" style="color:#f5f1e8">Hong Kong</div>
+          <div class="mono text-xs mt-1" style="color:rgba(245,241,232,0.5)">香港 · 1 a 2 dias</div>
+        </div>
+        <div>
+          <div class="mono text-xs uppercase mb-2" style="color:#d4a574; letter-spacing:0.16em">Saída aérea · descompressão</div>
+          <p style="color:rgba(245,241,232,0.8)">
+            Trem-bala West Kowloon (50 minutos com imigração conjunta em HK). Dia livre — programa opcional (Peak Tram, Disney HK, dim sum Tim Ho Wan). Voo de retorno para o Brasil.
+          </p>
+        </div>
+        <div class="mono text-xs text-right" style="color:rgba(245,241,232,0.4); min-width:80px">05 – 07 nov</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 03 · TRÊS PILARES -->
+<section id="pilares" class="py-28 md:py-32 relative">
+  <div class="max-w-7xl mx-auto px-6">
+    <p class="eyebrow mb-6 fade-in">03 · Três pilares</p>
+    <h2 class="headline text-4xl md:text-6xl mb-6 fade-in" style="color:#f5f1e8">
+      O que você <span class="italic gradient-full">leva de volta.</span>
+    </h2>
+    <p class="text-lg mb-14 max-w-2xl fade-in" style="color:rgba(245,241,232,0.65)">
+      Toda visita técnica gira em torno de três frentes. Cada vaga escolhe qual pilar aprofundar mais.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card p-8 fade-in">
+        <div class="mono text-xs uppercase mb-4" style="color:#00a352; letter-spacing:0.2em">Pilar 01</div>
+        <h3 class="headline text-3xl mb-4" style="color:#f5f1e8">IA e Tech</h3>
+        <p style="color:rgba(245,241,232,0.75)">
+          IA de decisão empresarial, food-tech operacional, dark kitchens, POS integrado e drone delivery. O playbook chinês visto na fonte.
+        </p>
+        <div class="mt-6 pt-4 border-t space-y-1 text-sm mono" style="border-color:rgba(255,255,255,0.06); color:rgba(245,241,232,0.5)">
+          <div>· 4Paradigm · IA de decisão</div>
+          <div>· Meituan · escritório</div>
+          <div>· Alibaba · TMall Global</div>
+          <div>· Ghost kitchens Pudong</div>
+        </div>
+      </div>
+
+      <div class="card p-8 fade-in">
+        <div class="mono text-xs uppercase mb-4" style="color:#ffcc29; letter-spacing:0.2em">Pilar 02</div>
+        <h3 class="headline text-3xl mb-4" style="color:#f5f1e8">Supply Chain</h3>
+        <p style="color:rgba(245,241,232,0.75)">
+          Packaging, descartáveis, insumos food service, uniformes e utensílios. Da fábrica chinesa até a loja brasileira via consolidação de contêiner.
+        </p>
+        <div class="mt-6 pt-4 border-t space-y-1 text-sm mono" style="border-color:rgba(255,255,255,0.06); color:rgba(245,241,232,0.5)">
+          <div>· Yiwu · 75 mil lojas</div>
+          <div>· Canton Fair · Halls A + C</div>
+          <div>· Certificação ANVISA</div>
+          <div>· Ningbo → Santos</div>
+        </div>
+      </div>
+
+      <div class="card p-8 fade-in">
+        <div class="mono text-xs uppercase mb-4" style="color:#e63946; letter-spacing:0.2em">Pilar 03</div>
+        <h3 class="headline text-3xl mb-4" style="color:#f5f1e8">Equipamento</h3>
+        <p style="color:rgba(245,241,232,0.75)">
+          Fornos combinados, fritadeiras autônomas, linhas de produção, robôs de wok e POS hardware. Com certificação INMETRO para importação.
+        </p>
+        <div class="mt-6 pt-4 border-t space-y-1 text-sm mono" style="border-color:rgba(255,255,255,0.06); color:rgba(245,241,232,0.5)">
+          <div>· DJI · fábrica visitável</div>
+          <div>· Canton Fair · Fase 1</div>
+          <div>· Certificação INMETRO</div>
+          <div>· Intermediação + deploy</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 04 · NÚCLEO -->
+<section id="nucleo" class="py-28 md:py-32 relative">
+  <div class="max-w-7xl mx-auto px-6">
+    <p class="eyebrow mb-6 fade-in">04 · Realização</p>
+    <h2 class="headline text-4xl md:text-6xl mb-6 fade-in" style="color:#f5f1e8">
+      Três operadores. <span class="italic gradient-full">Não consultores.</span>
+    </h2>
+    <p class="text-lg mb-14 max-w-2xl fade-in" style="color:rgba(245,241,232,0.65)">
+      A missão é conduzida presencialmente pelos três realizadores, do primeiro ao último dia.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card p-8 fade-in">
+        <div class="w-20 h-20 rounded-full mb-6 flex items-center justify-center headline text-3xl" style="background:linear-gradient(135deg,#00a352 0%,#ffcc29 100%); color:#f5f1e8">MB</div>
+        <div class="mono text-xs uppercase mb-2" style="color:#00a352; letter-spacing:0.2em">Curadoria comercial</div>
+        <h3 class="headline text-3xl mb-2" style="color:#f5f1e8">Matheus Busson</h3>
+        <p class="mono text-xs mb-4" style="color:#d4a574">CEO Grupo OLV · Diretor MKT NewCo</p>
+        <p class="text-sm" style="color:rgba(245,241,232,0.75)">
+          Opera oito marcas F&B em São Paulo (Oliver's, Rajas, Temaqueria, Bistrugro). Viagem de reconhecimento à China em janeiro/fevereiro de 2026.
+        </p>
+      </div>
+
+      <div class="card p-8 fade-in">
+        <div class="w-20 h-20 rounded-full mb-6 flex items-center justify-center headline text-3xl" style="background:linear-gradient(135deg,#ffcc29 0%,#d4a574 100%); color:#08080a">FV</div>
+        <div class="mono text-xs uppercase mb-2" style="color:#ffcc29; letter-spacing:0.2em">Delivery · rosto público</div>
+        <h3 class="headline text-3xl mb-2" style="color:#f5f1e8">Felipe Vecchi</h3>
+        <p class="mono text-xs mb-4" style="color:#d4a574">Founder Temakeria Universitária · Gyomō</p>
+        <p class="text-sm" style="color:rgba(245,241,232,0.75)">
+          Especialista em delivery. 257 mil seguidores no Instagram (verificado), 12 milhões de views orgânicos por mês. Sócio da Comunidade INTEL7.
+        </p>
+      </div>
+
+      <div class="card p-8 fade-in">
+        <div class="w-20 h-20 rounded-full mb-6 flex items-center justify-center headline text-3xl" style="background:linear-gradient(135deg,#e63946 0%,#d4a574 100%); color:#f5f1e8">TD</div>
+        <div class="mono text-xs uppercase mb-2" style="color:#e63946; letter-spacing:0.2em">Execução · tech</div>
+        <h3 class="headline text-3xl mb-2" style="color:#f5f1e8">Thiago Dam</h3>
+        <p class="mono text-xs mb-4" style="color:#d4a574">CEO Ghost Lab 7</p>
+        <p class="text-sm" style="color:rgba(245,241,232,0.75)">
+          Arquiteto de IA e automação empresarial. Stack multiagente em produção há mais de 4 anos. Coordena a operação in-country e o parceiro local.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 05 · APOIO -->
+<section id="apoio" class="py-28 md:py-32 relative">
+  <div class="max-w-7xl mx-auto px-6">
+    <p class="eyebrow mb-6 fade-in">05 · Apoio institucional</p>
+    <h2 class="headline text-4xl md:text-6xl mb-6 fade-in" style="color:#f5f1e8">
+      Conversas em <span class="italic gradient-brasil">curso.</span>
+    </h2>
+    <p class="text-lg mb-14 max-w-2xl fade-in" style="color:rgba(245,241,232,0.65)">
+      Reunião com Gabriel, presidente da Abrasel, agendada. iFood inclinado positivamente.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="card p-10 fade-in">
+        <div class="flex items-center gap-3 mb-6">
+          <span class="tag tag-amarelo"><span class="pulse-dot"></span> em curso</span>
+        </div>
+        <h3 class="headline text-4xl mb-4" style="color:#f5f1e8">Abrasel</h3>
+        <p class="mb-6" style="color:rgba(245,241,232,0.75)">
+          Associação Brasileira de Bares e Restaurantes. 600 mil+ estabelecimentos. Precedente: NRA Chicago 2026 (800+ brasileiros).
+        </p>
+        <div class="space-y-2 border-t pt-4 text-sm" style="border-color:rgba(255,255,255,0.06)">
+          <div class="flex justify-between"><span style="color:rgba(245,241,232,0.7)">Abrasel SP</span><span class="mono text-xs uppercase" style="color:#ffcc29">Em curso</span></div>
+          <div class="flex justify-between"><span style="color:rgba(245,241,232,0.7)">Abrasel RJ</span><span class="mono text-xs uppercase" style="color:#ffcc29">Em curso</span></div>
+          <div class="flex justify-between"><span style="color:rgba(245,241,232,0.7)">Abrasel Campinas</span><span class="mono text-xs uppercase" style="color:#ffcc29">Em curso</span></div>
+          <div class="flex justify-between"><span style="color:rgba(245,241,232,0.7)">Abrasel Nacional</span><span class="mono text-xs uppercase" style="color:#d4a574">Alvo 2027</span></div>
+        </div>
+      </div>
+
+      <div class="card p-10 fade-in">
+        <div class="flex items-center gap-3 mb-6">
+          <span class="tag tag-verde"><span class="pulse-dot"></span> inclinado positivamente</span>
+        </div>
+        <h3 class="headline text-4xl mb-4" style="color:#f5f1e8">iFood</h3>
+        <p class="mb-6" style="color:rgba(245,241,232,0.75)">
+          Marketplace âncora do delivery no Brasil. Interlocutor natural do movimento setorial. Contato inicial aberto via a rede do núcleo.
+        </p>
+        <div class="space-y-2 border-t pt-4 text-sm" style="border-color:rgba(255,255,255,0.06)">
+          <div class="flex justify-between"><span style="color:rgba(245,241,232,0.7)">Contato inicial</span><span class="mono text-xs uppercase" style="color:#00a352">Aberto</span></div>
+          <div class="flex justify-between"><span style="color:rgba(245,241,232,0.7)">Fase 01 · Observador</span><span class="mono text-xs uppercase" style="color:#ffcc29">Em curso</span></div>
+          <div class="flex justify-between"><span style="color:rgba(245,241,232,0.7)">Fase 02 · Endosso</span><span class="mono text-xs uppercase" style="color:#d4a574">Set/26</span></div>
+          <div class="flex justify-between"><span style="color:rgba(245,241,232,0.7)">Fase 03 · Vaga</span><span class="mono text-xs uppercase" style="color:#d4a574">Set/26</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 06 · INVESTIMENTO -->
+<section id="investimento" class="py-28 md:py-32 relative overflow-hidden">
+  <div class="blur-blob" style="background:#d4a574; width:600px; height:600px; top:20%; right:-200px;"></div>
+  <div class="max-w-7xl mx-auto px-6 relative z-10">
+    <p class="eyebrow mb-6 fade-in">06 · Investimento</p>
+    <h2 class="headline text-4xl md:text-6xl mb-14 fade-in" style="color:#f5f1e8">
+      Uma vaga. <span class="italic gradient-full">Dois formatos.</span>
+    </h2>
+
+    <div class="card-anchor p-10 md:p-14 mb-10 fade-in">
+      <div class="grid md:grid-cols-[1.4fr_1fr] gap-10 items-center">
+        <div>
+          <div class="mono text-xs uppercase mb-4" style="color:#d4a574; letter-spacing:0.22em">Por vaga · à vista</div>
+          <div class="huge mb-6" style="color:#f5f1e8; font-size:clamp(4rem,10vw,8rem)">R$ 29.900</div>
+          <div class="pt-6 border-t" style="border-color:rgba(212,165,116,0.3)">
+            <div class="mono text-xs uppercase mb-3" style="color:#d4a574; letter-spacing:0.22em">Ou parcelado</div>
+            <div class="flex items-baseline gap-3 flex-wrap">
+              <div class="text-4xl headline gradient-full">12 ×</div>
+              <div class="text-4xl headline" style="color:#f5f1e8">R$ 2.999</div>
+              <div class="mono text-sm" style="color:rgba(245,241,232,0.6)">sem entrada</div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-6">
+          <div>
+            <div class="mono text-xs uppercase mb-3" style="color:#00a352; letter-spacing:0.2em">Inclui</div>
+            <ul class="space-y-1 text-sm" style="color:rgba(245,241,232,0.8)">
+              <li>· Curadoria dos 15 dias</li>
+              <li>· Guias e tradutores PT/EN</li>
+              <li>· Traslados internos</li>
+              <li>· Refeições-chave</li>
+              <li>· Visitas técnicas</li>
+              <li>· Buyer badge Canton Fair</li>
+              <li>· Relatório pós-viagem</li>
+            </ul>
+          </div>
+          <div>
+            <div class="mono text-xs uppercase mb-3" style="color:#e63946; letter-spacing:0.2em">Não inclui</div>
+            <ul class="space-y-1 text-sm" style="color:rgba(245,241,232,0.7)">
+              <li>· Passagem aérea</li>
+              <li>· Hospedagem</li>
+              <li>· Visto (visa-free 2026)</li>
+              <li>· Gastos pessoais</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-4 gap-4 mb-10">
+      <div class="card p-6 fade-in">
+        <div class="mono text-xs uppercase mb-3" style="color:#d4a574; letter-spacing:0.18em">01</div>
+        <h4 class="headline text-2xl mb-3" style="color:#f5f1e8">Co-Líder</h4>
+        <p class="text-sm mb-4" style="color:rgba(245,241,232,0.7)">
+          Empresário sênior como par de curadoria. Agenda personalizada, presença nos materiais oficiais.
+        </p>
+        <div class="pt-4 border-t mono text-xs uppercase" style="border-color:rgba(255,255,255,0.06); color:#d4a574; letter-spacing:0.15em">1 a 2 vagas · sob consulta</div>
+      </div>
+
+      <div class="card-anchor p-6 fade-in">
+        <div class="mono text-xs uppercase mb-3" style="color:#d4a574; letter-spacing:0.18em">02</div>
+        <h4 class="headline text-2xl mb-3" style="color:#f5f1e8">Corporativa</h4>
+        <p class="text-sm mb-4" style="color:rgba(245,241,232,0.7)">
+          Empresa que envia executivo próprio. Relatório executivo formal pós-viagem.
+        </p>
+        <div class="pt-4 border-t" style="border-color:rgba(212,165,116,0.25)">
+          <div class="headline text-xl mb-1" style="color:#f5f1e8">R$ 29.900</div>
+          <div class="mono text-xs uppercase" style="color:rgba(245,241,232,0.55); letter-spacing:0.14em">3 a 5 vagas</div>
+        </div>
+      </div>
+
+      <div class="card p-6 fade-in">
+        <div class="mono text-xs uppercase mb-3" style="color:#d4a574; letter-spacing:0.18em">03</div>
+        <h4 class="headline text-2xl mb-3" style="color:#f5f1e8">Abrasel</h4>
+        <p class="text-sm mb-4" style="color:rgba(245,241,232,0.7)">
+          Associado Abrasel com desconto institucional (10 a 15%) e endosso público formal.
+        </p>
+        <div class="pt-4 border-t" style="border-color:rgba(255,255,255,0.06)">
+          <div class="headline text-xl mb-1" style="color:#f5f1e8">R$ 25.415 – 26.910</div>
+          <div class="mono text-xs uppercase" style="color:rgba(245,241,232,0.55); letter-spacing:0.14em">2 a 4 vagas</div>
+        </div>
+      </div>
+
+      <div class="card p-6 fade-in">
+        <div class="mono text-xs uppercase mb-3" style="color:#d4a574; letter-spacing:0.18em">04</div>
+        <h4 class="headline text-2xl mb-3" style="color:#f5f1e8">Setorial</h4>
+        <p class="text-sm mb-4" style="color:rgba(245,241,232,0.7)">
+          Segmento específico (packaging, equipamento, insumos). Visitas curadas por vertical.
+        </p>
+        <div class="pt-4 border-t" style="border-color:rgba(255,255,255,0.06)">
+          <div class="headline text-xl mb-1" style="color:#f5f1e8">R$ 29.900</div>
+          <div class="mono text-xs uppercase" style="color:rgba(245,241,232,0.55); letter-spacing:0.14em">2 a 4 vagas</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card p-10 md:p-14 text-center fade-in">
+      <div class="mono text-xs uppercase mb-4" style="color:#d4a574; letter-spacing:0.22em">Próximo passo · em 48h</div>
+      <h3 class="headline text-3xl md:text-4xl mb-6" style="color:#f5f1e8">Conversa executiva de 30 minutos</h3>
+      <p class="mb-8 max-w-xl mx-auto text-lg" style="color:rgba(245,241,232,0.72)">
+        Reunião com Matheus, Felipe ou Thiago para entender o encaixe e confirmar sua vaga. Sem obrigação.
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a href="mailto:matheus.oliveira.portella@gmail.com?subject=Miss%C3%A3o%20China%20Food%20%C2%B7%20Reservar%20vaga" class="btn-primary">
+          Reservar vaga
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="https://wa.me/?text=Quero%20agendar%20conversa%20sobre%20a%20Miss%C3%A3o%20China%20Food" class="btn-ghost">Falar no WhatsApp</a>
+      </div>
+      <p class="mono text-xs mt-8" style="color:rgba(245,241,232,0.4); letter-spacing:0.15em">
+        Fechamento da delegação: <span style="color:#e63946">15 de setembro de 2026</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="pt-20 pb-10 border-t" style="border-color:rgba(255,255,255,0.08)">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid md:grid-cols-[2fr_1fr_1fr] gap-12 mb-14">
+      <div>
+        <div class="flex items-center gap-3 mb-4">
+          <span class="pulse-dot" style="color:#d4a574"></span>
+          <span class="mono text-xs uppercase" style="color:#f5f1e8; letter-spacing:0.2em">INTEL7 · China Food</span>
+        </div>
+        <p class="headline text-3xl mb-3" style="color:#f5f1e8">Missão China Food <span class="italic gradient-china">2026</span></p>
+        <p class="max-w-md text-sm" style="color:rgba(245,241,232,0.55)">
+          24 outubro a 7 novembro 2026 · Canton Fair Fase 3 FOOD · curadoria por Matheus Busson, Felipe Vecchi e Thiago Dam.
+        </p>
+      </div>
+      <div>
+        <div class="eyebrow mb-4">Realização</div>
+        <ul class="space-y-2 text-sm" style="color:rgba(245,241,232,0.7)">
+          <li>Matheus Busson</li>
+          <li>Felipe Vecchi</li>
+          <li>Thiago Dam</li>
+        </ul>
+      </div>
+      <div>
+        <div class="eyebrow mb-4">Contato</div>
+        <ul class="space-y-2 text-sm" style="color:rgba(245,241,232,0.7)">
+          <li><a href="mailto:matheus.oliveira.portella@gmail.com" style="color:#f5f1e8">matheus.oliveira.portella@gmail.com</a></li>
+          <li class="mono text-xs" style="color:rgba(245,241,232,0.5); letter-spacing:0.15em">Versão preview · v2 enxuta</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-6 border-t flex flex-wrap justify-between items-center gap-4" style="border-color:rgba(255,255,255,0.06)">
+      <span class="mono text-xs uppercase" style="color:rgba(245,241,232,0.4); letter-spacing:0.15em">Documento institucional · circulação restrita</span>
+      <span class="mono text-xs uppercase" style="color:rgba(245,241,232,0.4); letter-spacing:0.15em">v5 preview · julho 2026</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.05, rootMargin: '0px 0px -60px 0px' });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  console.log('%c INTEL7 · Missão China Food · v5 preview ', 'background:#d4a574; color:#08080a; padding:8px 16px; font-family:monospace; font-weight:700;');
+</script>
+
+</body>
+</html>
